@@ -11,6 +11,10 @@ function App() {
       counter= counter + 1
       if(counter > 20) counter = 20
       setcounter(counter)
+      // setcounter(prevCounter => prevCounter+1)
+      // setcounter(prevCounter => prevCounter+1)
+      // setcounter(prevCounter => prevCounter+1)
+      // setcounter(prevCounter => prevCounter+1) will increase value by 4 on single click.
     }
     const removevalue = () => {
       if(counter < 1 ) counter = 0
